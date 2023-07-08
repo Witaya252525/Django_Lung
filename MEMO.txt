@@ -32,3 +32,6 @@ App Home
 (venv) C:\Users\Lenovo\OneDrive\WEBDEVELOP2023\Django_Lung\who_witaya>python manage.py startapp home
 
 (venv) C:\Users\Lenovo\OneDrive\WEBDEVELOP2023\Django_Lung\who_witaya>python manage.py runserver
+
+https://www.youtube.com/watch?v=rRVWQCpZ_CI&t=12360s
+
