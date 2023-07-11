@@ -35,3 +35,15 @@ App Home
 
 https://www.youtube.com/watch?v=rRVWQCpZ_CI&t=12360s
 
+(venv) C:\Users\Lenovo\OneDrive\WEBDEVELOP2023\Django_Lung\who_witaya>python manage.py migrate
+(venv) C:\Users\Lenovo\OneDrive\WEBDEVELOP2023\Django_Lung\who_witaya> python manage.py createsuperuser
+Username (leave blank to use 'lenovo'): admin
+Email address: witayachai@gmail.com
+Password:  12345678
+Password (again):
+This password is too common.
+This password is entirely numeric.
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+
+
