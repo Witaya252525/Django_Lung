@@ -8,3 +8,8 @@ def HOME(request):
 def SERVICE(request):
     return render(request ,'home/service.html')
 
+def CONTACT(request):
+    return render(request ,'home/contact.html')
+
+
+
