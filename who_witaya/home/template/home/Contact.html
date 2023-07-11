@@ -2,8 +2,31 @@
 {% load static %}
 {% block content %}
 
+{% if status %}   
+      {% if status == 'success'%}   
+          <!-- <h3> Data Completed and Thank you 👍👍</h3> -->
+          <div class="alert alert-primary" role="alert">
+            Data Completed and Thank you 👍👍!
+          </div>
+
+      {% else %}
+          <h3> Data not complete and Try again  😜😜</h3>
+
+      {% endif %}
+        
+
+
+
+
+
+
+{% endif %}
+
+
+
 <div class= "container">
   <form  method="POST">
+    {% csrf_token %}
 
     <div class="form-group">
       <label for="title">สอบถามหัวข้อ</label>
