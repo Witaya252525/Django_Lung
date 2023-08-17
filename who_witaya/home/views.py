@@ -18,12 +18,10 @@ def CONTACT(request):
         detail = data.get('detail')
         print(data,title,email)
         
-        if title =='' or email =='':
-             context['status'] = 'Witaya'
+        if title =='' or email =='' or detail ==" ":
+             context['status'] = 'alert'
              return render(request ,'home/contact.html',context)
-
-
-
+        
         new =ContactMessage()
         new.title = title
         new.email = email
@@ -31,7 +29,6 @@ def CONTACT(request):
         new.save()
 
         context['status'] = 'success'
-
 
     return render(request ,'home/contact.html',context)
 
